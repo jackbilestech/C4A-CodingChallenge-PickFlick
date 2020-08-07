@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#gallery{
+  border: 1px solid white;
+  background-color: gray;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+img{
+  border-radius: 25px;
+  border-color: white;
+  border: 5px solid;
+}
+
+.picture-tile{
+  cursor: pointer;
+  border: 5px solid gray;
+  animation: all .5 ease-in-out;
+  margin: 5px;
+}
+
+.picture-tile:hover{
+  cursor: pointer;
+  border: 5px solid lightblue;
+  animation: all .5 ease-in-out;
+}
